@@ -1,0 +1,17 @@
+<pre class="metadata">
+Title: More geoposition clocks
+Shortname: D???
+Status: D
+Date: now
+Group: wg21
+Revision: 0
+ED: https://github.com/Au-lit/iso_cpp_proposals/geoposition_clocks.bs
+Warning: Not Ready
+Repository: https://github.com/Au-lit/iso_cpp_proposals
+Editor: Ollivier Roberge, ollivier.roberge@gmail.com
+Abstract: C++20 introduced 'std::chrono::gps_clock' in order to represent time from the United States's Global Positioning System (<abbr>GPS</abbr>). This paper proposes to add clocks for China's BeiDou Navigation Satellite System (<abbr>BSD</abbr>), Russia's "Глобальная навигационная спутниковая система" (<abbr>GLONASS</abbr>) and the European Union's Galileo.
+</pre>
+
+Introduction
+============
+
