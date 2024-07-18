@@ -15,3 +15,10 @@ jobs:
       - uses: w3c/spec-prod@v2
         with:
           TOOLCHAIN: bikeshed
+          
+          # Modify as appropriate
+          GH_PAGES_BRANCH: gh-pages
+
+          # if your doc isn't in the root folder,
+          # or Bikeshed otherwise can't find it:
+          SOURCE: geoposition_clocks.bs
