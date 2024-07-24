@@ -1564,7 +1564,7 @@ Possible extra rowspan handling
   <meta content="Bikeshed version 82ce88815, updated Thu Sep 7 16:33:55 2023 -0700" name="generator">
   <link href="https://github.com/Au-lit/iso_cpp_proposals/geoposition_clocks.bs" rel="canonical">
   <link href="https://isocpp.org/favicon.ico" rel="icon">
-  <meta content="492c468cf958693b56d66e21e870c457162301ca" name="document-revision">
+  <meta content="c6fd07648fe9c48c0cea852fa88e25e57be5de57" name="document-revision">
 <style>/* Boilerplate: style-autolinks */
 .css.css, .property.property, .descriptor.descriptor {
     color: var(--a-normal-text);
@@ -2092,7 +2092,7 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   <div class="head">
    <p data-fill-with="logo"></p>
    <h1 class="p-name no-ref" id="title">D???R0<br>More geoposition clocks</h1>
-   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Draft Proposal, <time class="dt-updated" datetime="2024-07-18">2024-07-18</time></span></h2>
+   <h2 class="no-num no-toc no-ref heading settled" id="profile-and-date"><span class="content">Draft Proposal, <time class="dt-updated" datetime="2024-07-24">2024-07-24</time></span></h2>
    <div data-fill-with="spec-metadata">
     <dl>
      <dt>This version:
@@ -2116,16 +2116,19 @@ c-[il] { color: #000000 } /* Literal.Number.Integer.Long */
   </div>
   <div class="p-summary" data-fill-with="abstract">
    <h2 class="no-num no-toc no-ref heading settled" id="abstract"><span class="content">Abstract</span></h2>
-   <p>C++20 introduced <code class="highlight"><c- n>std</c-><c- o>::</c-><c- n>chrono</c-><c- o>::</c-><c- n>gps_clock</c-></code> in order to represent time from the United States’s Global Positioning System (<abbr>GPS</abbr>). This paper proposes to add clocks for China’s BeiDou Navigation Satellite System (<abbr>BSD</abbr>), Russia’s "Глобальная навигационная спутниковая система" (<abbr>GLONASS</abbr>) and the European Union’s Galileo.</p>
+   <p>C++20 introduced <code class="highlight"><c- n>std</c-><c- o>::</c-><c- n>chrono</c-><c- o>::</c-><c- n>gps_clock</c-></code> in order to represent time from the United States’s Global Positioning System (<abbr>GPS</abbr>). This paper proposes to add clocks for China’s BeiDou Navigation Satellite System (<abbr>BDS</abbr>), Russia’s "Глобальная навигационная спутниковая система" (<abbr>GLONASS</abbr>) and the European Union’s Galileo.</p>
   </div>
   <nav data-fill-with="table-of-contents" id="toc">
    <h2 class="no-num no-toc no-ref" id="contents">Table of Contents</h2>
    <ol class="toc" role="directory">
     <li><a href="#introduction"><span class="secno">1</span> <span class="content">Introduction</span></a>
+    <li><a href="#impact-on-the-standard"><span class="secno">2</span> <span class="content">Impact on the standard</span></a>
    </ol>
   </nav>
   <main>
    <h2 class="heading settled" data-level="1" id="introduction"><span class="secno">1. </span><span class="content">Introduction</span><a class="self-link" href="#introduction"></a></h2>
+   <h2 class="heading settled" data-level="2" id="impact-on-the-standard"><span class="secno">2. </span><span class="content">Impact on the standard</span><a class="self-link" href="#impact-on-the-standard"></a></h2>
+   <p>This proposal is a pure library extension. It does not require changes to any standard classes or functions.</p>
   </main>
 <script>
 (function() {
